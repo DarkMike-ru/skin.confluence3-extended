@@ -284,7 +284,7 @@
 		</node>
 		<!-- Favourites -->
 		<node label="1036">
-			<shortcut label="1036" type="1036" icon="DefaultFolder.png">ActivateWindow(favourites)</shortcut>
+			<shortcut label="1036" type="1036" icon="DefaultFolder.png">ActivateWindow(MyFavourites)</shortcut>
 			<node label="1036">
 				<content>favourite</content>
 			</node>

@@ -268,7 +268,7 @@
 				<description>Favourites Window</description>
 				<label>$LOCALIZE[32086]</label>
 				<onclick>Dialog.Close($PARAM[id_win])</onclick>
-				<onclick>Skin.SetString(usrfavbtncmd.Path,ActivateWindow(Favourites),return)</onclick>
+				<onclick>Skin.SetString(usrfavbtncmd.Path,ActivateWindow(MyFavourites),return)</onclick>
 				<onclick>Skin.SetString(usrfavbtncmd.Label,$LOCALIZE[32086])</onclick>
 				<onclick>ClearProperty(usrselectbtn,Home)</onclick>
 				<visible>String.IsEqual(Window(Home).Property(usrselectbtn),usrfavbtncmd)</visible>

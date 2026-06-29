@@ -14,9 +14,9 @@
 		<value condition="Skin.String(UsrFavBtnCmd.Path,AutoSuggest) + [String.IsEqual(Container(9000).ListItem.Property(defaultID),tvshows) | String.IsEqual(Container(9000).ListItem.label2,$LOCALIZE[20343])]">ActivateWindow(2124)</value>
 		<value condition="Skin.String(UsrFavBtnCmd.Path,AutoSuggest) + [String.IsEqual(Container(9000).ListItem.Property(defaultID),music) | String.IsEqual(Container(9000).ListItem.label2,$LOCALIZE[2])]">ActivateWindow(2123)</value>
 		<value condition="Skin.String(UsrFavBtnCmd.Path,AutoSuggest) + [String.IsEqual(Container(9000).ListItem.Property(defaultID),musicvideos) | String.IsEqual(Container(9000).ListItem.label2,$LOCALIZE[20389])]">ActivateWindow(2126)</value>
-		<value condition="Skin.String(UsrFavBtnCmd.Path,AutoSuggest)">ActivateWindow(Favourites)</value>
+		<value condition="Skin.String(UsrFavBtnCmd.Path,AutoSuggest)">ActivateWindow(MyFavourites)</value>
 		<value condition="!String.IsEmpty(Skin.String(UsrFavBtnCmd.Path))">$INFO[Skin.String(UsrFavBtnCmd.Path)]</value>
-		<value>ActivateWindow(Favourites)</value>
+		<value>ActivateWindow(MyFavourites)</value>
 	</variable>
 	<variable name="PowerButtonLabelVar">
 		<value condition="String.IsEmpty(Skin.String(usrpwrbtncmd.Label))">$LOCALIZE[33113]</value>

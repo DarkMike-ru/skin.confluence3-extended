@@ -106,7 +106,7 @@
 		<onload>Skin.SetString(widgetlimititems,10,)</onload>
 		<onload>Skin.SetString(splashscreenduration,5,)</onload>
 		<onload>Skin.SetBool(singleglobalbackground)</onload>
-		<onload>Skin.SetString(usrfavbtncmd.Path,ActivateWindow(Favourites))</onload>
+		<onload>Skin.SetString(usrfavbtncmd.Path,ActivateWindow(MyFavourites))</onload>
 		<onload>Skin.SetString(usrpwrbtncmd.Path,ActivateWindow(ShutdownMenu))</onload>
 		<onload>Skin.SetBool(initialsetuprun)</onload>
 	</include>
