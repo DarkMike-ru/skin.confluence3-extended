@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<defaultcontrol>90010</defaultcontrol>
 	<onload condition="String.IsEmpty(Window(Home).Property(MenuItemActive))">SetProperty(MenuItemActive,settings,Home)</onload>
